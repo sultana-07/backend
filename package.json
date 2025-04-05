@@ -5,12 +5,16 @@
   "type" : "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "sultan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+        "prettier": "^3.5.3",
+         "nodemon": "^3.1.9"
+      }
 }
